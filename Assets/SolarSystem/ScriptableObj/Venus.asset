@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffe064c80987294481c54ca2eafef65, type: 3}
+  m_Name: Venus
+  m_EditorClassIdentifier: 
+  Name: Venus
+  Age: 4.503 billion years
+  Diameter: 12,104 km
+  Circumference: 38,025 km
+  Volume: "9.2843 \xD7 10^11 km^3"
+  Mass: "4.8675 \xD7 10^24 kg"
+  OrbitingSpeed: 35.02 km/s
+  AverageDistanceToSun: 108.05 million km
+  Year: 224.701 days
+  Day: 5832.4 hours
+  Area: "4.6023\xD710^8 km^2"
+  Temperature: "462 \xB0C"
+  Atmosphere: CO2, N2
+  numberFigure: 1
+  figure1: {fileID: 21300000, guid: 7b57f00e37262da4db16c508cd3dec0e, type: 3}
+  figure2: {fileID: 0}
+  figureDes: "Venus often called Earth\u2019s twin."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffe064c80987294481c54ca2eafef65, type: 3}
+  m_Name: Mars
+  m_EditorClassIdentifier: 
+  Name: Mars
+  Age: 4.603 billion years
+  Diameter: 6,779 km
+  Circumference: 21,344 km
+  Volume: "1.63118 \xD7 10^11 km^3"
+  Mass: "6.4171 \xD7 10^23 kg"
+  OrbitingSpeed: 24.07 km/s
+  AverageDistanceToSun: 238.33 million km
+  Year: 686.971 days
+  Day: 24.623 hours
+  Area: "144.37 \xD7 10^6 km^2"
+  Temperature: "-110/35 \xB0C (min/max)"
+  Atmosphere: CO2, N2, Ar
+  numberFigure: 1
+  figure1: {fileID: 21300000, guid: e0290eaa91fbf3d4382c2f330f5fa12b, type: 3}
+  figure2: {fileID: 0}
+  figureDes: '"The Red Planet".'

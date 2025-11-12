@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffe064c80987294481c54ca2eafef65, type: 3}
+  m_Name: Uranus
+  m_EditorClassIdentifier: 
+  Name: Uranus
+  Age: 4.503 billion years
+  Diameter: 50,724 km
+  Circumference: 159,354 km
+  Volume: "6.833 \xD7 10^13 km^3"
+  Mass: "8.681 \xD7 10^25 kg"
+  OrbitingSpeed: 6.80 km/s
+  AverageDistanceToSun: 2.9349 billion km
+  Year: 30,688.5 days
+  Day: 17.23992 hours
+  Area: "8.1156 \xD7 10^9 km^2"
+  Temperature: "\u2212197.2 \xB0C"
+  Atmosphere: H2, He, CH4
+  numberFigure: 1
+  figure1: {fileID: 21300000, guid: 8a59408f3df222142895ad9e85626d18, type: 3}
+  figure2: {fileID: 0}
+  figureDes: "This zoomed-in image reveals stunning views of the Uranus\u2019s rings."

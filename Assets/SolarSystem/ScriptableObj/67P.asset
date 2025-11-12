@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffe064c80987294481c54ca2eafef65, type: 3}
+  m_Name: 67P
+  m_EditorClassIdentifier: 
+  Name: "Comet (67P/C\u2013G)"
+  Age: '4.568 billion years '
+  Diameter: 3.4 km
+  Circumference: '-'
+  Volume: 18.7 km^3
+  Mass: "9.982 \xD7 10^12 kg"
+  isSmaller: 1
+  OrbitingSpeed: 38 km/s
+  AverageDistanceToSun: 186 million to 849.7 million km
+  Year: 6.45 years
+  Day: 12.4 hours
+  Area: '-'
+  Temperature: "\u221293/-43 \xB0C (min/max)"
+  Atmosphere: Vacuum
+  numberFigure: 1
+  figure1: {fileID: 21300000, guid: c706c3b463aa64a44a5fbd7a971806ca, type: 3}
+  figure2: {fileID: 0}
+  figureDes: "Called 67P or 67P/C\u2013G, its a Jupiter-family comet."

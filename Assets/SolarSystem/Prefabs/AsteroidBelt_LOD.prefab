@@ -1,0 +1,1104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156609229125214403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9166214096274287527}
+  m_Layer: 3
+  m_Name: AsteroidBelt_LOD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &9166214096274287527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156609229125214403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3437494281009243962}
+  - {fileID: 6192043186049177197}
+  - {fileID: 4756550244242986819}
+  - {fileID: 3412186425011381207}
+  - {fileID: 1115413798508513821}
+  - {fileID: 1770064824093141229}
+  - {fileID: 7546806916614375739}
+  - {fileID: 6902874738519506257}
+  - {fileID: 5365900119745074759}
+  - {fileID: 927732017969956989}
+  - {fileID: 4040464430070928477}
+  - {fileID: 2717360585342574617}
+  - {fileID: 4920135136868960751}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &427562199124916288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4756550244242986819}
+  - component: {fileID: 970556165753166311}
+  - component: {fileID: 1284743370292069055}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4756550244242986819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427562199124916288}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.17221399, z: -0, w: 0.9850596}
+  m_LocalPosition: {x: 17.12, y: 0, z: 13.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: -19.833, z: 0}
+--- !u!65 &970556165753166311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427562199124916288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1284743370292069055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427562199124916288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &1088349297031242370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4920135136868960751}
+  - component: {fileID: 2017748098392365508}
+  - component: {fileID: 71515718272205739}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4920135136868960751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088349297031242370}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000084363364, y: 0.71631044, z: 0.00000008421177, w: 0.6977818}
+  m_LocalPosition: {x: -0.85932827, y: 0.000002042328, z: -29.738464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 91.501, z: 0}
+--- !u!65 &2017748098392365508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088349297031242370}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &71515718272205739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088349297031242370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &1674118980892103914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5365900119745074759}
+  - component: {fileID: 7170566470704486376}
+  - component: {fileID: 5343217041418510139}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5365900119745074759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674118980892103914}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000117419674, y: 0.9870871, z: 0.000000020528145, w: 0.16018495}
+  m_LocalPosition: {x: -18.057215, y: -0.0000021047151, z: -13.4540205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 161.565, z: 0}
+--- !u!65 &7170566470704486376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674118980892103914}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5343217041418510139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674118980892103914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &1775586130434442175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3412186425011381207}
+  - component: {fileID: 2565481624892538373}
+  - component: {fileID: 8793491585566240396}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3412186425011381207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775586130434442175}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.38219756, z: -0, w: 0.9240807}
+  m_LocalPosition: {x: 9.690001, y: 0, z: 25.150002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: -44.94, z: 0}
+--- !u!65 &2565481624892538373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775586130434442175}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8793491585566240396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775586130434442175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &1956613617501128876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 927732017969956989}
+  - component: {fileID: 4652375649384309270}
+  - component: {fileID: 300895155556030100}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &927732017969956989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956613617501128876}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000011015064, y: 0.92867446, z: 0.00000004555818, w: 0.370896}
+  m_LocalPosition: {x: -10.913571, y: -0.0000003673934, z: -25.281778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 136.458, z: 0}
+--- !u!65 &4652375649384309270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956613617501128876}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &300895155556030100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956613617501128876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &2475894220952937622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6902874738519506257}
+  - component: {fileID: 3261386231662618453}
+  - component: {fileID: 383382209801350040}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6902874738519506257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475894220952937622}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000011920022, y: 0.9999257, z: 6.039613e-14, w: -0.012199551}
+  m_LocalPosition: {x: -20.1, y: -0.0000026319476, z: 0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 181.398, z: 0}
+--- !u!65 &3261386231662618453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475894220952937622}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &383382209801350040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475894220952937622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &2718707584056851008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1115413798508513821}
+  - component: {fileID: 6211413205290267546}
+  - component: {fileID: 5487797343374590625}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1115413798508513821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718707584056851008}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000005862664, y: 0.35526103, z: 0.000000010991339, w: 0.9347671}
+  m_LocalPosition: {x: 10.85, y: -0.00000082537986, z: -24.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 41.619, z: 0}
+--- !u!65 &6211413205290267546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718707584056851008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5487797343374590625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718707584056851008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &2807060088468360741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6192043186049177197}
+  - component: {fileID: 708147018248324239}
+  - component: {fileID: 3336417833072728141}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6192043186049177197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807060088468360741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.5, y: 0, z: -0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &708147018248324239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807060088468360741}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3336417833072728141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807060088468360741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &3715421541338533314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7546806916614375739}
+  - component: {fileID: 2351317518443800664}
+  - component: {fileID: 8455473376107427004}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7546806916614375739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715421541338533314}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7064692, z: -0, w: 0.7077438}
+  m_LocalPosition: {x: -0.46999958, y: 0, z: 29.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: -89.897, z: 0}
+--- !u!65 &2351317518443800664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715421541338533314}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8455473376107427004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715421541338533314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &4974708963855257593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2717360585342574617}
+  - component: {fileID: 1713468697737303861}
+  - component: {fileID: 6037568457825062862}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2717360585342574617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974708963855257593}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000072982665, y: 0.9902549, z: 0.00000009424583, w: -0.1392668}
+  m_LocalPosition: {x: -17.903545, y: -0.0000003673934, z: 11.55261}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 196.011, z: 0}
+--- !u!65 &1713468697737303861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974708963855257593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6037568457825062862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974708963855257593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &8728511174316507530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4040464430070928477}
+  - component: {fileID: 2240588637109001350}
+  - component: {fileID: 2806037623977815205}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4040464430070928477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728511174316507530}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000009172202, y: 0.9363127, z: 0.00000007613038, w: -0.35116738}
+  m_LocalPosition: {x: -11.327026, y: -0.0000021047151, z: 23.704742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 221.118, z: 0}
+--- !u!65 &2240588637109001350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728511174316507530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2806037623977815205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728511174316507530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1 &9198729565628034113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770064824093141229}
+  - component: {fileID: 8211835170203070607}
+  - component: {fileID: 6830698893326332999}
+  m_Layer: 3
+  m_Name: AsteroidCollider
+  m_TagString: Celestial
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1770064824093141229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198729565628034113}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000054835997, y: 0.14359859, z: 0.000000023470855, w: 0.98963606}
+  m_LocalPosition: {x: 17.532751, y: 0.000000821435, z: -12.255917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9166214096274287527}
+  m_LocalEulerAnglesHint: {x: 0, y: 16.512, z: 0}
+--- !u!65 &8211835170203070607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198729565628034113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6830698893326332999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198729565628034113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04883d2371f22c6459e0863278cdfcfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 11400000, guid: 40fb74b912a3fd143b7d6b7bd7469396, type: 2}
+  Name: {fileID: 0}
+  Age: {fileID: 0}
+  Diameter: {fileID: 0}
+  Circumference: {fileID: 0}
+  Volume: {fileID: 0}
+  Mass: {fileID: 0}
+  OrbitingSpeed: {fileID: 0}
+  AverageDistanceToSun: {fileID: 0}
+  Year: {fileID: 0}
+  Day: {fileID: 0}
+  Area: {fileID: 0}
+  Temperature: {fileID: 0}
+  Atmosphere: {fileID: 0}
+  Figure1: {fileID: 0}
+  Figure2: {fileID: 0}
+  FigureDes: {fileID: 0}
+--- !u!1001 &2899992341630894289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9166214096274287527}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+      propertyPath: m_Name
+      value: AsteroidBelt_LOD
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+--- !u!4 &3437494281009243962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b8f62ecd74df85449e89282122d036a, type: 3}
+  m_PrefabInstance: {fileID: 2899992341630894289}
+  m_PrefabAsset: {fileID: 0}

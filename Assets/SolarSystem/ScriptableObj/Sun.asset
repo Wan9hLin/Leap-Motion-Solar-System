@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffe064c80987294481c54ca2eafef65, type: 3}
+  m_Name: Sun
+  m_EditorClassIdentifier: 
+  Name: Sun
+  Age: 4.603 billion years
+  Diameter: 1.3927 million km
+  Circumference: 4.379 million km
+  Volume: "1.41 \xD7 10^18 km^3"
+  Mass: "1.9885 \xD7 10^30 kg"
+  OrbitingSpeed: 230 km/s
+  AverageDistanceToSun: '-'
+  Year: '-'
+  Day: '-'
+  Area: "6.09 \xD7 10^12 km^2"
+  Temperature: "5,499 \xB0C (Surface) / 15,699,726.8 \xB0C (Core)"
+  Atmosphere: H2, He
+  numberFigure: 1
+  figure1: {fileID: 21300000, guid: 02e3946e91ee2c84f89434499ca8358d, type: 3}
+  figure2: {fileID: 0}
+  figureDes: A solar flare on the left side of the sun, called a prominence eruption.
